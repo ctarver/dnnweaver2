@@ -21,14 +21,15 @@ Load your venv.
 source .venv/bin/activate
 ```
 
+Install Python dependencies:
+```
+pip install -r requirements.txt
+```
+
 Create a venv kernel for any jupyter notebooks:
 ```
 ipython kernel install --user --name=.venv
-```
 
-Python dependencies:
-```
-pip install -r requirements.txt
 ```
 
 Vivado Tool version:
