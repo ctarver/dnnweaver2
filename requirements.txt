@@ -1,4 +1,5 @@
 
-numpy==1.11.0
+jupyter
 pandas==0.23.4
-tensorflow-gpu>=1.10.0
+tensorflow
+numpy
