@@ -10,6 +10,22 @@ H. Sharma, J. Park, D. Mahajan, E. Amaro, J. K. Kim, C. Shao, A. Mishra, H. Esma
 
 ## Build Instructions
 
+Create a virtual python environment. My python is python3, so this works out so that the venv python is python3.6.
+```
+cd dnnweaver2
+python -m virtualenv .venv
+```
+
+Load your venv.
+```
+source .venv/bin/activate
+```
+
+Create a venv kernel for any jupyter notebooks:
+```
+ipython kernel install --user --name=.venv
+```
+
 Python dependencies:
 ```
 pip install -r requirements.txt
